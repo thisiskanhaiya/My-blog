@@ -4,23 +4,30 @@
 body{
     margin: 0;
     text-align: center;
-    font-size: 22px;
-    
+    font-size: 25px;
 }
 
 .nav li a{
-    color: black;
+    color: blue;
     text-decoration: none;
 }
+.mountain{
+    width: 50vw;
+}
+
 .nav li{
    
-    font-family: 'Ephesis', cursive;;
+    font-family: 'Ephesis', cursive;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-right: 8vw;
-    padding-bottom: 4vw;
+    
+    font-size: 32px;
     display : inline-block;
     list-style : none;
+}
+.adj{
+    margin-right: 5vw;
+    margin-left: 5vw;
 }
  li a:hover{
      transition-duration: 1.2s;
@@ -35,7 +42,7 @@ body{
 h1{
     margin: 0 auto;
     font-family: 'Akronim', cursive;
-    /* font-size: 5rem; */
+    font-size: 4rem;
 
 }
 h3{
@@ -49,7 +56,7 @@ h4{
     font-family: 'Explora', cursive;
 }
 p{
-    /* font-family: monospace; */
+    
     font-family: 'Ephesis', cursive;
 }
 .header{
@@ -57,9 +64,7 @@ p{
     padding-top: 2vw;
    
 }
-img{
-    background-color:#E4F9F5 ;
-}
+
 .bottom-cloud{
     position: relative;
     right: 11vw;
@@ -82,17 +87,15 @@ img{
     
     padding-bottom: 0;
     margin-bottom: 0;
-    background-color: #E4F9F5;
+    /* background-color: #E4F9F5; */
+    background-color:cornsilk;
     
 }
-.g-cloud{
-    background-color: white;
-}
-.g-cloud img{
-    background-color: white;
-    height: 20vw;
 
+.Google-Cloud{
+    width: 20vw;
 }
+
 
 .footer{
     margin-top: 0;
